@@ -2,8 +2,8 @@ name: Company Reputation Tracker
 
 on:
   # Scheduled run (6:00 AM Denmark time in summer)
-  schedule:
-    -  cron: '00 4 * * *'  # CHANGE TIME
+#  schedule:
+#    -  cron: '00 4 * * *'  # CHANGE TIME
   
   # Manual trigger
   workflow_dispatch:
